@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-hibernate" />
+        <module name="555" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="555" target="1.8" />
       <module name="spring-hibernate" target="1.8" />
     </bytecodeTargetLevel>
   </component>
