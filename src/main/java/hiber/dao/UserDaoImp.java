@@ -3,7 +3,6 @@ package hiber.dao;
 import hiber.model.User;
 import jakarta.persistence.TypedQuery;
 import org.hibernate.SessionFactory;
-import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
